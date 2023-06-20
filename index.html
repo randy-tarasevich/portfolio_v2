@@ -8,13 +8,13 @@
 </head>
 <body>
 
-  <div class="relative container h-screen w-screen p-0 mx-auto bg-gradient-to-tl from-cyan-500 to-blue-900 ">
+  <div class="relative container h-screen w-screen px-0 py-0 mx-auto bg-gradient-to-tl from-cyan-500 to-blue-900 ">
   
   <!--Navbar-->
-  <nav class="relative container items-center mx-auto py-6">
+  
     <!--Flex Container-->
-    <div class="flex items-center mx-auto text-white">
-      <div class="hidden text-xl md:flex space-x-6">
+    <div class="flex items-center mx-auto py-5 text-white">
+      <div class="hidden md:flex items-center justify-between mx-auto text-2xl space-x-6">
         <a href="About" class="hover:text-yellow-300">About</a>
         <a href="Services" class="hover:text-yellow-300">Services</a>
         <a href="Projects" class="hover:text-yellow-300">Projects</a>
@@ -30,32 +30,32 @@
 
     <!--Mobile Menu-->
     <div class="md:hidden">
-      <div id="menu" class="relative flex-row items-centered mx-auto justify-between hidden py-10 mt-0 space-y-0 font-bold bg-opacity-100 sm:w-auto sm:self-center text-white left-0 right-0 drop-shadow-md">
+      <div id="menu" class="absolute mx-auto items-center justify-between hidden pt-5 mt-0 mb-0 font-bold space-x-6 bg-opacity-100 text-white drop-shadow-md">
         <a href="About" class="hover:text-yellow-300">About</a>
         <a href="Services" class="hover:text-yellow-300">Services</a>
         <a href="Projects" class="hover:text-yellow-300">Projects</a>
       </div>
     </div>
-  </nav>
+ 
 
   <!--Hero Section-->
   <section id="hero">
     <!--Flex Container-->
-      <div class="container flex flex-row items-centered justify-between px-6 mt-10 mx-auto space-y-0 md:space-y-0">
+      <div class="container flex flex-row items-centered justify-between px-10 mt-20 mx-auto space-y-0 md:space-y-0">
 
       <!--Heading & Subtext-->
         <div class="flex flex-col mx-auto space-y-5">
-        <h1 class="max-w-md text-4xl font-bold text-center text-white mt-10 md:text-5xl">
+        <h1 class="max-w-md text-4xl font-bold text-center text-white mt-10 md:text-6xl">
           Randy Tarasevich
         </h1>
-          <h2 class="max-w-md font-bold text-center text-white sm:text-3xl md:text-3xl"> {Full-Stack Developer}</h2>
-          <p class="max-w-sm text-center text-white">
-            I specialize in building accessible, intuitive end-to-end and products experiences for the modern web.
+          <h2 class="max-w-md font-bold py-5 text-center text-white sm:text-3xl md:text-4xl"> {Full-Stack Developer}</h2>
+          <p class="max-w-sm text-center mx-auto text-2xl text-white">
+            I specialize in building accessible, intuitive end-to-end products and experiences for the modern web.
           </p>
       </div>
   </section>
 
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
   </div>
 </body>
 </html>
